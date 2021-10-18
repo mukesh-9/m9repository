@@ -22,7 +22,7 @@ const HomePage = () =>{
       <>
           <div className="hideMobile">
             <i class="fa fa-frown-o" aria-hidden="true"></i>
-            <h1>This website is only for full desktop.</h1>
+            <h1>This website is only for desktop user.</h1>
           </div>
           <div className="showPC">
           <div className="homepage" style={{position: beginPage ? "absolute" : "relative", zIndex: beginPage ? "10" : "0", display: beginPage ? "" : "none"}}>
