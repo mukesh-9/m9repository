@@ -29,7 +29,7 @@ const HomePage = () =>{
             <div className="logo">
               <img src="logo192.png" alt="logo"/>
               <h1>Learn ReactJS</h1>
-              <h2>Step by step</h2>
+              <h2>Step -> by -> step</h2>
                 <Button variant="outlined" color="secondary" className="begin_btn" onClick={()=>{setTimeout(()=>{setBeginPage(false);},500);}}>
                   Let's Begin
                 </Button>
