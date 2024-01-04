@@ -42,7 +42,7 @@ const HomePage = () =>{
                   <ul>
                       <NavLink activeClassName="active" to="/Introduction" onClick={ () => {setPageName("React Introduction");}}><li>Introduction</li></NavLink>
                       <NavLink to="/Installation" onClick={ () => {setPageName("React Installation");}}><li>React install ?</li></NavLink>
-                      <NavLink to="/HelloWorld" onClick={ () => {setPageName("How to print rint Hello World ?");}}><li>How to print Hello World ?</li></NavLink>
+                      <NavLink to="/HelloWorld" onClick={ () => {setPageName("How to print Hello World ?");}}><li>How to print Hello World ?</li></NavLink>
                       <NavLink to="/Newfile" onClick={ () => {setPageName("How to create new file ?");}}><li>How to create new file ?</li></NavLink>
                       <NavLink to="/ReactCss" onClick={ () => {setPageName("React CSS");}}><li>React CSS </li></NavLink>
                       <NavLink to="/Hooks" onClick={ () => {setPageName("React Hooks");}}><li>React Hooks</li></NavLink>
